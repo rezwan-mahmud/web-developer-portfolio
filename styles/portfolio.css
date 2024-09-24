@@ -120,4 +120,15 @@ main{
 }
 .about-info{
     text-align:center;
+    padding-bottom: 2px;
+}
+#what-i-do-description{
+    padding: 30px 130px;
+}
+.skills-container{
+    display:flex;
+
+}
+.skill-description{
+    
 }

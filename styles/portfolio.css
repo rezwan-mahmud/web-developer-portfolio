@@ -1,0 +1,49 @@
+/* Common shared styles*/
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* primary- color*/
+.text-primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:0;
+    color:white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 16px 30px;
+    text-align: center;
+
+}
+
+/* Nav related styles */
+nav {
+    display: flex;
+    height: 20px;
+    padding: 40px 50px 40px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navigation title styles */
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items:center;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+    text-decoration: none;
+    color: #474747
+}

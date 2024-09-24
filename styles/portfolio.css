@@ -17,7 +17,7 @@ body {
     font-weight: 700;
     text-align: center;
     height: 30px;
-    width:70px;
+    width:80px;
 
 }
 
@@ -28,6 +28,7 @@ nav {
     padding: 40px 50px 40px 50px;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 /* navigation title styles */
@@ -47,4 +48,19 @@ nav li{
     margin-right: 51px;
     text-decoration: none;
     color: #474747
+}
+
+/* header related style*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-pic{
+    width: 500px;
+
 }

@@ -124,6 +124,7 @@ main{
 }
 #what-i-do-description{
     padding: 30px 130px;
+    text-align: center;
 }
 .skills-container{
     display:flex;
@@ -143,7 +144,62 @@ main{
 /* Resume Section Styles*/
 
 .resume-column-title{
-    color:#474747;
+    color: #474747;
     font-size:30px;
     font-weight:700;
+    text-align: center;
+
+}
+
+.resume-container{
+    display:flex;
+    gap: 50px;
+    box-shadow: 2px 1px 2px 1px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size:25px;
+    font-style:normal;
+    font-weight: 700;
+    text-align: center;
+}
+.resume-item-description, .resume-item-institute{
+    color: #757575;
+    text-align: center;
+
+}
+.resume-container hr{
+    margin:20px;
+} 
+.download-cv{
+    text-align:center;
+    margin-top:30px;
+}
+
+/* footer style */
+footer{
+    display:flex;
+    gap:100px;
+    background: #FFF8F3;
+    margin-top:60px;
+    padding: 130px 200px;
+}
+
+.footer-column{
+    width:50%;
+}
+.social-links{
+    margin-right: 30px;
+    
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display:block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747;
+    background-color: #FFF;
+    border-radius: 5px;
+    border:0;
+    width:100%;
 }
